@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Analisis1.MainPage">
+
+
+    <ScrollView>
+        <StackLayout>
+            <Entry x:Name="entry1" Placeholder="Números pares se mostrarán aquí"
+               IsReadOnly="True"
+               FontSize="18" />
+
+            <Button Text="Mostrar números pares"
+               Clicked="Button_Clicked"
+                HorizontalOptions="Center"
+                Margin="0,20,0,0" />
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
