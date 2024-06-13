@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Analisis1.Menu_Principal"
+             Title="Menu_Principal">
+    <VerticalStackLayout  BackgroundColor="LightBlue">
+        <Label 
+            Text="Bienvenido al menu"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+        
+
+        <Button Text="Ejercicio1" Clicked="Button_Clicked" Margin="5" BackgroundColor="Green" HeightRequest="8" WidthRequest="200"/>
+        <Button Text="Ejercicio2" Margin="5" BackgroundColor="Blue" HeightRequest="8" WidthRequest="200"/>
+        <Button Text="Ejercicio3" Margin="5" BackgroundColor="Green" HeightRequest="8" WidthRequest="200"/>
+        <Button Text="Ejercicio4" Margin="5" BackgroundColor="Blue"  HeightRequest="8" WidthRequest="200"/>
+        <Button Text="Ejercicio5" Margin="5" BackgroundColor="Green" HeightRequest="8" WidthRequest="200"/>
+        <Button Text="Ejercicio6" Margin="5" BackgroundColor="Blue" HeightRequest="8" WidthRequest="200"/>
+    </VerticalStackLayout>
+</ContentPage>
