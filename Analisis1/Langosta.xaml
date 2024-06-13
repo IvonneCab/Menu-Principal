@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LANGOSTAEJERCICIO5.Langosta"
+             Title="Langosta">
+    <VerticalStackLayout>
+        <Label 
+            Text="LANGOSTA"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry Placeholder="Ingrese número de platillos" x:Name="Langostaentry"/>
+        <Entry x:Name="Resultado" Placeholder="Total:"/>
+        <Button x:Name="Buttonla" Clicked="Buttonla_Clicked" Text="Calcular"/>
+    </VerticalStackLayout>
+</ContentPage>

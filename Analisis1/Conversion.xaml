@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CONVERSIONMEXejercicio6.Conversion"
+             Title="Conversion">
+    <VerticalStackLayout>
+        <Label 
+            Text="CONVERSION PESOS MEXICANOS"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry Placeholder="Ingrese la cantidad de pesos:" x:Name="pesos"/>
+        <Entry x:Name="conversion" Placeholder="Total:"/>
+        <Button x:Name="Buttonla" Clicked="Buttonla_Clicked" Text="Calcular"/>
+    </VerticalStackLayout>
+</ContentPage>
