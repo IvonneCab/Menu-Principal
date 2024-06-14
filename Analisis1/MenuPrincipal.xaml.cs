@@ -34,7 +34,7 @@ public partial class Menu_Principal : ContentPage
 
     private void Buttonxe3_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new Ejercicio3());
+        Navigation.PushAsync(new ejercicio3());
 
     }
 }

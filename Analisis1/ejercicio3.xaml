@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Analisis1.ejercicio3"
+             Title="ejercicio3">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Entry x:Name="Entry1" Placeholder="que tabla deseas ver"></Entry>
+
+
+            <Button x:Name="Mostrartabla" Clicked="Mostrartabla_Clicked" Text="Calcular resultado de tabla"></Button>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
