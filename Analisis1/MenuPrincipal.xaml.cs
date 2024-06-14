@@ -37,4 +37,10 @@ public partial class Menu_Principal : ContentPage
         Navigation.PushAsync(new ejercicio3());
 
     }
+
+    private void buttonxe2_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new ejercicio2());
+
+    }
 }

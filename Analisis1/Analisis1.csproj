@@ -72,6 +72,9 @@
 	  <MauiXaml Update="Conversion.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="ejercicio2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ejercicio3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
