@@ -1,10 +1,10 @@
 ﻿namespace Ejercicio3TablasdeMultiplicar
 {
-    public partial class MainPage : ContentPage
+    public partial class Ejercicio3 : ContentPage
     {
-        int count = 0;
+        
 
-        public MainPage()
+        public Ejercicio3()
         {
             InitializeComponent();
         }
