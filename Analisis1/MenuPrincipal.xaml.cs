@@ -1,4 +1,5 @@
 using CONVERSIONMEXejercicio6;
+using Ejercicio3TablasdeMultiplicar;
 using LANGOSTAEJERCICIO5;
 
 namespace Analisis1;
@@ -23,5 +24,17 @@ public partial class Menu_Principal : ContentPage
     private void Butonexe6_Clicked(object sender, EventArgs e)
     {
         Navigation.PushAsync(new Conversion());
+    }
+
+    private void Buttonxe4_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Ejercicio4PagoSemanal());
+
+    }
+
+    private void Buttonxe3_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Ejercicio3());
+
     }
 }
